@@ -167,9 +167,9 @@ If(($Show_OpenRecycleBin_Button -eq $True) -and ($Show_ClearRecycleBin_Button -e
 		$Actions = 
 @"
   <actions>
-        <action activationType="protocol" arguments="$Action_Open" content="Open it" />		
-        <action activationType="protocol" arguments="$Action_Clear" content="Empty it" />		  
-        <action activationType="protocol" arguments="Dismiss" content="Dismiss" />
+        <action activationType="protocol" arguments="$Action_Open" content="Ouvrir la corbeille" />		
+        <action activationType="protocol" arguments="$Action_Clear" content="Vider la corbeille" />		  
+        <action activationType="protocol" arguments="Dismiss" content="Ignorer" />
    </actions>	
 "@		
 	}
